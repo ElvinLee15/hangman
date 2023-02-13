@@ -1,0 +1,9 @@
+/* Positioning of letter buttons */
+.hangman-input-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.8rem;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+}

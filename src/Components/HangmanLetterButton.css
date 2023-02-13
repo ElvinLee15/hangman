@@ -1,0 +1,27 @@
+/* Styling of letter buttons */
+.letter-button, .correct-letter-button, .incorrect-letter-button{
+    background-color: rgba(0, 0, 255, 0.397);
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.test{
+    background-color: red;
+}
+
+.correct-letter-button{
+    color: rgb(10, 129, 30);
+    background-color: rgba(17, 223, 17, 0.281);
+}
+
+.incorrect-letter-button{
+    color: rgb(231, 15, 15);
+    background-color: rgba(223, 17, 17, 0.281);
+}
+

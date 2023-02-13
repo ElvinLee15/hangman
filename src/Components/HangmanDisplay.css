@@ -1,0 +1,41 @@
+.hangman-display-container {
+  background-color: rgba(255, 255, 255, 0.788);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Positioning of elements within hangman-display-container */
+.header {
+  grid-column: 1/-1;
+}
+
+.hangman-img-container {
+  grid-column: 1/3;
+  grid-row: 2/4;
+}
+
+.hangman-input-container,
+.hangman-word-reveal-container {
+  grid-column: 3/-1;
+}
+
+/* Styling of popup and help buttons */
+.help-button, .restart-button{
+  background-color: rgba(0, 0, 255, 0.678);
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  color: rgb(233, 227, 227);
+}
+
+.help-button:hover, .restart-button:hover{
+  background-color: rgba(0, 0, 255, 0.726);
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  color: rgb(233, 227, 227);
+}
