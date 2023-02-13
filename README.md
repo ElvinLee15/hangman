@@ -1,3 +1,13 @@
+# Hangman React Project
+
+# Project Aim
+Use all the concepts (React, Components, States, Hooks and Redux) that have been learned and apply it to the creation of the hangman app.
+
+# Project Features:
+- Help button to provide instructions to user on how to play the game
+- Provide an option for user to restart/reset the game when they win/lose on the game.
+- Produce easy to understand UI for user to play the game (button will change colours based on whether they guessed the correct letter or not)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
