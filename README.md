@@ -1,7 +1,7 @@
 # Hangman React Project
 
 # Project Aim
-Use all the concepts (React, Components, States, Hooks and Redux) that have been learned and apply it to the creation of the hangman app.
+Use all the concepts (React, Components, States, Hooks and Redux) that have been learned in the bootcamp on React and apply it to the creation of the hangman app.
 
 # Project Features:
 - Help button to provide instructions to user on how to play the game
